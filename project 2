@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Menu</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<div class="col-md-4">
+		<img  src="images/logo1.jpg" alt="logo"> 	
+		<a href="./menu" style="color: red;">Menu</a>
+		<a href="./main" style="color: red;">Main</a>
+		<a href="./special" style="color: red;">Special</a>
+		<a href="./about.html" style="color: red;">About</a>
+		<a class="list-inline-item col-md-2" href="./cart.html"><img class="cart" src="./images/cart.png" alt="cart" style="width:60px;height:60px;"> 
+		<span class="badge" id="numItems">0</span></a>
+	</div>
+
+		<div class="menu row text-center">
+			<div class="grid-container">
+				<div class="item1" > <p>Pepperoni</p></div>
+				<div class="item2">
+					<img class="pizza" height="100px" width="100px" src="./images/pepperoni.jpg" alt="pepperoni">
+				</div>
+				<br>
+				<div class="item3">
+					<a href="#" class="button" >Order</button></a>
+				</div>
+			
+
+				<div class="item4">
+				<p>Chicken Alfredo</p>
+				</div>
+				<div class="item5">
+				<img class="pizza" height="100px" width="100px" src="./images/chickenAlf.jpg" alt="Chicken alfredo">
+				</div>
+				<br>
+				<div class="item6">
+				<a href="#" class="button" >Order</button></a>
+				</div>
+			
+
+				<div class="item7"
+				<p>Works</p>
+				</div>
+				<div class="item8"
+				<img height="100px" width="100px" class="pizza" src="./images/works.jpg" alt="works">
+				</div>
+				<br>
+				<div class="item9">
+					<a href="#" class="button"  >Order</button></a>
+				</div>
+			</div>
+		</div>
+	<hr>
+
+	<div class="col-md-4">
+		<footer>
+		<img  src="./images/logo1.jpg" alt="logo" height="100" width="150">
+		<ul>
+		<li><a href="./service">Customer Service</a></li>
+		<li><a href="./account">Account</a></li>
+		<li><a href="./special">Special</a></li>
+		<li><a href="./about.html">About</a></li>
+		</ul>
+		<button class="btn btn-primary" type="button" >clear cart</button>
+		<p>Lorem ipsum Sit amet adipisicing dolor non anim voluptate cillum dolor eu eu ad irure.</p>
+
+		<p>Lorem ipsum Sit amet adipisicing dolor non anim voluptate cillum dolor eu eu ad irure.</p>
+
+		<p>Lorem ipsum Sit amet adipisicing dolor non anim voluptate cillum dolor eu eu ad irure. Lorem ipsum Duis aute Excepteur.</p>
+
+		</footer>
+	</div>
+</body>
+</html>
